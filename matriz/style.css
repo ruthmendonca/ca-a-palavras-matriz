@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 30px;
+    color:rgb(231, 13, 13);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.palavras{
+    margin-top: 3%;
+    font-size: 40px;
+}
+
+.tabela{
+    margin-top: 3%;
+    font-size: 60px;
+}
+
+.x5, .x17, .x29, .x53, .x77, .x89, .x101, .x113, .x125{
+    background-color: #CD5C5C;
+}
+
+.x26, .x38, .x50, .x62, .x74, .x86{
+    background-color: #F08080;
+}
+
+.x36, .x48, .x60, .x72, .x84, .x96, .x108{
+    background-color: #FFC0CB;
+}
+
+.x44, .x56, .x68, .x80, .x92, .x104, .x128{
+    background-color: #FFB6C1;
+}
+
+.x38, .x39, .x40, .x41, .x42 {
+    background-color: #EF92B9;
+}
+
+.x64, .x66 , .x67, .x68, .x69, .x70, .x71 {
+    background-color: #DB7093;
+}
+
+.x133, .x134,.x135, .x136, .x137, .x138, .x139, .x140, .x141 {
+    background-color: #FA8072;
+}
+
+.x121, .x122, .x123, .x124, .x125, .x126{
+    background-color: #FF6347;
+}
+
+.x83, .x94, .x105, .x116, .x127 {
+    background-color: #E9967A;
+}
+
+.x21, .x32, .x43, .x54, .x65, .x76, .x87, .x98{
+    background-color: #FFCA80;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Caça Palavras</title>
+</head>
+<body>
+
+   <!--Titulo-->
+    <div class='titulo'>
+      <p><b>Caça Palavras- Papito Frederico</b></p>
+      <p>por rutoca linda</p>
+    </div>
+
+   <!--Texto-->
+   <div class='texto'>
+   </div>
+
+    <div class='palavras'>
+
+        <table align="center" width="1000px">
+            <tr>
+                <td bgcolor="#EF92B9">Amigo</td>
+                <td bgcolor="#FFC0CB">Barbosa</td>
+                <td bgcolor="#EF92B9">Educador</td>
+                <td bgcolor="#FFB6C1">Frederico</td>
+                <td bgcolor="#FF6347">Mestre</td>
+            </tr>
+            <tr>
+                <td bgcolor="#E9967A">Muniz</td>
+                <td bgcolor="#F08080">Papito</td>
+                <td bgcolor="#DB7093">Parceiro</td>
+                <td bgcolor="#FA8072">Professor</td>
+                <td bgcolor="#CD5C5C">Programador</td>
+            </tr>
+        </table>
+    </div>
+
+    <table class="tabela" align="center">
+        <script>
+            matriz = new Array;
+            matriz = [
+                ["R", "E", "A", "E", "P", "I", "Y", "R", "I", "A", "K", "R"],
+                ["F", "S", "D", "V", "R", "K", "R", "R", "E", "M", "T", "T"],
+                ["N", "P", "I", "S", "O", "U", "Y", "D", "L", "P", "K", "B"],
+                ["E", "A", "M", "I", "G", "O", "U", "F", "P", "A", "C", "A"],
+                ["A", "P", "E", "M", "R", "C", "S", "R", "E", "A", "W", "R"],
+                ["D", "I", "E", "P", "A", "R", "C", "E", "I", "R", "O", "B"],
+                ["U", "T", "A", "D", "M", "M", "A", "D", "A", "E", "M", "O"],
+                ["L", "O", "O", "I", "A", "Y", "S", "E", "U", "U", "D", "S"],
+                ["V", "R", "E", "N", "D", "S", "D", "R", "N", "O", "E", "A"],
+                ["E", "N", "D", "U", "O", "E", "P", "I", "I", "I", "A", "H"],
+                ["M", "E", "S", "T", "R", "E", "Z", "C", "I", "E", "N", "O"],
+                ["P", "R", "O", "F", "E", "S", "S", "O", "R", "A", "I", "R"],
+                
+            ];
+
+            var x = 0;
+     
+            for(linha  = 0; linha < 12; linha++){
+            document.write("<tr>");
+            for(coluna = 0; coluna < 12; coluna ++){
+                
+                x++;
+            
+                document.write("<td class= 'x"+ x +"'>" + matriz[linha][coluna]+ "</td>" );    
+                
+            }
+            document.write("</tr>");
+            
+        }
+        </script>
+    </table>
+</body>
+</html>
