@@ -1,2 +1,2 @@
-# ca-a-palavras-matriz
+# caca-palavras-matriz
 Caça palavras utlizando matriz
